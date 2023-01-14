@@ -26,7 +26,7 @@ mongoose.connect(process.env.MONGO_URL, {
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:["http://localhost:3000"],
+    origin:["http://localhost:3000","https://celebrated-fairy-45b546.netlify.app"],
     credentials:true
 }))
 
